@@ -1,0 +1,11 @@
+
+<div class='list'>
+<h1>Movie List</h1>
+<br/>
+<ol >
+<li *ngFor="let i of movielist" role="button" (click)="loadMovie(i)"  >
+  {{i.movie_name}}
+</li>
+
+</ol>
+</div>
